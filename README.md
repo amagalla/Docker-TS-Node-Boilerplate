@@ -17,9 +17,7 @@
 
 <p>** PC USERS **</p>
 
-<p>In docker-compose.yml replace volumes with these two lines below. Working on a fix later</p>
-
-<p> - .:/app </p>
+<p>In docker-compose.yml replace volume on line 11 with line below. Working on a fix later</p>
 
 <p> - /nodemon.json:/nodemon.json </p>
 
