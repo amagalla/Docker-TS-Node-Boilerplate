@@ -15,4 +15,12 @@
 
 <p>Container server and web application is running on localhost:3000</p>
 
+<p>** PC USERS **</p>
+
+<p>In docker-compose.yml replace volumes with these two lines below. Working on a fix later</p>
+
+<p> - .:/app </p>
+
+<p> - /nodemon.json:/nodemon.json </p>
+
 <p> I might include React or Vue within this boilerplate at a later time</p>
