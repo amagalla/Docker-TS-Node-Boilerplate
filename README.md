@@ -1,4 +1,4 @@
-<h1>Welcome to the Typescript Node/Express boilplate on Docker/Docker Compose!! <h1>
+<h1>Welcome to the Typescript Node/Express boilerplate on Docker/Docker Compose!! <h1>
 
 <br>
 
