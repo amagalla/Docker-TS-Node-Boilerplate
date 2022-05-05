@@ -7,6 +7,8 @@
 
 <p>Make sure Docker and Docker compose is installed (I mean I know you knew that)</p>
 
+<p>npm run install</p>
+
 <p>npm run install-app  (to build containers)</p>
 
 <p>npm run serve (to launch application up from docker container)</p>
