@@ -1,7 +1,22 @@
 version: '3.7'
 
 services:
-  ts-node:
+  client:
+    build: .
+    image: react-app
+    container_name: react-container
+    volumes:
+      - .:/app
+    ports:
+      - '8080:8080'
+    stdin_open: true
+    tty: true
+    networks:
+      - pern-app
+    command: npm run client
+    depends_on:
+      - server
+  server:
     build:
       context: .
       dockerfile: Dockerfile
@@ -9,9 +24,14 @@ services:
     volumes:
       - .:/app
       - /var/nodemon.json:/nodemon.json
-    container_name: ts-node-container
+    container_name: node-conatiner
     expose:
       - '3000'
     ports:
       - '3000:3000'
     command: npm run dev
+    networks:
+      - pern-app
+networks:
+  pern-app:
+    driver: bridge
