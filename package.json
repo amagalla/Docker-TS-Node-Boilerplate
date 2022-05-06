@@ -8,6 +8,7 @@
     "dev": "nodemon -L app/lib/server.ts",
     "install-app": "docker-compose build",
     "serve": "docker-compose up",
+    "down": "docker-compose down",
     "serve-prod": "docker-compose -f docker-compose.yml -f docker-compose.prod.yml up",
     "build": "tsc -p ./",
     "client": "webpack serve --config webpack/webpack.config.js --env env=dev",
