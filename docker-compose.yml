@@ -24,7 +24,7 @@ services:
     volumes:
       - .:/app
       - /var/nodemon.json:/nodemon.json
-    container_name: node-conatiner
+    container_name: node-container
     expose:
       - '3000'
     ports:
