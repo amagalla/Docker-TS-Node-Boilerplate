@@ -5,7 +5,7 @@ const app: Application = express();
 const PORT = 3000;
 
 app.get('/welcome', (req: Request, res: Response) => {
-  console.log('Have fun building stuff!!');
+  console.log('Have fun building stuff');
   res.send(`Hello from typescript node`);
 });
 
