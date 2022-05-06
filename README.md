@@ -16,5 +16,3 @@
 <p>client -> localhost:8080</p>
 
 <p>server -> localhost:3000</p>
-
-<p> I might include React or Vue within this boilerplate at a later time</p>
